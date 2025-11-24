@@ -10,7 +10,7 @@
 * `git push` uploads the local repo content to the remote repo
 * `git log` shows the commit history
 * `git diff` shows the changes between various states of your repo
-* `git checkout` to revert to older version
+* `git revert` to revert to older version
 
 ## Process to push changes
 1. `git status`
