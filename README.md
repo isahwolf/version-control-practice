@@ -9,7 +9,9 @@
 * `git commit -m "message"` records the changes in the staging area
 * `git push` uploads the local repo content to the remote repo
 * `git log` shows the commit history
+    * q closes the log
 * `git diff` shows the changes between various states of your repo
+* `git mv` renames a file
 * `git revert` to revert to older version
 
 ## Process to push changes
