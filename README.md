@@ -13,6 +13,8 @@
 * `git diff` shows the changes between various states of your repo
 * `git mv` renames a file
 * `git revert` to revert to older version
+* `git restore` will undo changes in the working directory or staging area
+* `git checkout` will restore file to last commit
 
 ## Process to push changes
 1. `git status`
