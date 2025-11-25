@@ -16,7 +16,7 @@
 * `git restore` will undo changes in the working directory or staging area
 * `git checkout` will restore file to last commit
 * `git tag` or `git tag -a` to create tags
-    * `git tag --list` or `git tag --l` to view tags
+    * `git tag --list` or `git tag -l` to view tags
 
 ## Process to push changes
 1. `git status`
