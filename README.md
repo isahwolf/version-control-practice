@@ -15,9 +15,19 @@
 * `git revert` to revert to older version
 * `git restore` will undo changes in the working directory or staging area
 * `git checkout` will restore file to last commit
+* `git tag` or `git tag -a` to create tags
 
 ## Process to push changes
 1. `git status`
 2. `git add .` or `git add 'filename'`
 3. `git commit -m "message"`
 4. `git push`
+
+## Tags
+* Named reference to a commit
+* Often used to mark releases
+* There are two tags that you can create
+    * Lightweight tag
+        * Ex: `git tag issue136 655da716e7`
+    * Annotated tag (most common)
+        * Ex: `git tag -a v1.1 -m "Version 1.0" dd5c49428a0`
