@@ -15,6 +15,7 @@
 * `git revert` to revert to older version
 * `git restore` will undo changes in the working directory or staging area
 * `git checkout` will restore file to last commit
+* `git checkout -b <new-branch-name>` will create a new branch
 * `git tag` or `git tag -a` to create tags
     * `git tag --list` or `git tag -l` to view tags
     * `git tag --delete` or `git tag -d` to delete tags locally
