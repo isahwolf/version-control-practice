@@ -17,6 +17,10 @@
 * `git checkout` will restore file to last commit
 * `git tag` or `git tag -a` to create tags
     * `git tag --list` or `git tag -l` to view tags
+    * `git tag --delete` or `git tag -d` to delete tags locally
+    * `git push origin :v1.11` would delete tag v1.11 from the remote server
+    * `git push origin v1.11` to push tag v1.11
+    * `git push --tags` to push all tags
 
 ## Process to push changes
 1. `git status`
